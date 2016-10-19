@@ -37,7 +37,6 @@ while (((curchr=getchar() ) != EOF) && (curchr != 4));
 
 printf("------------------------------\n");
 printf("Number of characters: %d\n",cnt);
-//printf("Number of letters: %d\n",noletters);
 printf("Number of words: %d\n",nowords);
 printf("Number of lines: %d\n",(nolines));
 printf("------------------------------\n");
