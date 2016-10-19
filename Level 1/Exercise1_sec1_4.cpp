@@ -20,10 +20,7 @@ while (((curchr = getchar()) != EOF) && (curchr != 4))
 
 {   cnt++;
 
-   // if ((curchr != ' ') && (curchr != '\n'))
-   //{ noletters++; }
-
-    if ((curchr != ' ')&& (isspace(prechr)))
+     if ((curchr != ' ')&& (isspace(prechr)))
     { nowords++;}
 
     if (curchr=='\n')
@@ -32,10 +29,8 @@ while (((curchr = getchar()) != EOF) && (curchr != 4))
     prechr= curchr;
  }
 
-
 printf("------------------------------\n");
 printf("Number of characters: %d\n",cnt);
-//printf("Number of letters and digits: %d\n",noletters);
 printf("Number of words: %d\n",nowords);
 printf("Number of lines: %d\n",(nolines));
 printf("------------------------------\n");
